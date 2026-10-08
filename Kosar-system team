@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Kosar-system team — تیم ساخت نرم‌افزار، ابزار و پروژه‌های خلاقانه">
+<title>Kosar-system team | صفحه اصلی</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#07111f;--card:#0d1b2d;--line:#173453;--blue:#43b9ff;--blue2:#8ad7ff;--text:#edf8ff;--muted:#9bb2c7}
+html{scroll-behavior:smooth}
+body{font-family:Tahoma,Arial,sans-serif;background:radial-gradient(circle at 80% 10%,#12355a 0,transparent 30%),var(--bg);color:var(--text);overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:linear-gradient(#ffffff05 1px,transparent 1px),linear-gradient(90deg,#ffffff05 1px,transparent 1px);background-size:42px 42px;mask-image:linear-gradient(to bottom,#000,transparent 80%);z-index:-1}
+header{position:sticky;top:0;z-index:10;background:#07111fcc;backdrop-filter:blur(14px);border-bottom:1px solid #ffffff12}
+nav{max-width:1100px;margin:auto;padding:15px 20px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:20px;font-weight:900;color:var(--blue2);letter-spacing:.3px}
+.logo span{color:#fff}
+nav a{color:var(--muted);text-decoration:none;margin-right:22px;font-size:14px;transition:.2s}
+nav a:hover{color:var(--blue)}
+.hero{min-height:650px;max-width:1100px;margin:auto;padding:95px 20px 70px;display:grid;place-items:center;text-align:center;position:relative}
+.orb{position:absolute;width:260px;height:260px;border-radius:50%;background:#39adff18;filter:blur(12px);animation:float 5s ease-in-out infinite}
+.orb.o1{right:5%;top:15%}.orb.o2{left:5%;bottom:10%;width:180px;height:180px;animation-delay:1.5s}
+@keyframes float{50%{transform:translateY(-22px) scale(1.05)}}
+.badge{display:inline-block;padding:8px 14px;border:1px solid #3bb7ff55;border-radius:99px;color:var(--blue2);background:#0c294055;font-size:13px;margin-bottom:20px}
+h1{font-size:clamp(40px,8vw,76px);line-height:1.08;margin-bottom:18px}
+.gradient{background:linear-gradient(90deg,#fff,#78d2ff,#fff);-webkit-background-clip:text;color:transparent}
+.hero p{max-width:650px;color:var(--muted);font-size:17px;line-height:2;margin:auto}
+.buttons{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:30px}
+.btn{padding:13px 22px;border-radius:12px;text-decoration:none;font-weight:bold;transition:.25s;border:1px solid var(--line)}
+.primary{background:linear-gradient(135deg,#2aa9ff,#1974dc);color:white;border:0;box-shadow:0 8px 30px #168cff30}
+.secondary{color:var(--blue2);background:#0d1b2d}
+.btn:hover{transform:translateY(-3px)}
+section{max-width:1100px;margin:auto;padding:75px 20px}
+.section-title{text-align:center;font-size:30px;margin-bottom:12px}
+.section-sub{text-align:center;color:var(--muted);margin-bottom:38px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:linear-gradient(145deg,#0e2034,#091625);border:1px solid var(--line);border-radius:20px;padding:25px;transition:.25s;position:relative;overflow:hidden}
+.card:before{content:"";position:absolute;width:100px;height:100px;background:#36b5ff18;border-radius:50%;top:-50px;left:-30px}
+.card:hover{transform:translateY(-6px);border-color:#2dafff77;box-shadow:0 15px 45px #0005}
+.icon{font-size:32px;margin-bottom:14px}.card h3{margin-bottom:9px}.card p{color:var(--muted);line-height:1.8;font-size:14px}
+.status{display:inline-block;margin-top:18px;font-size:12px;padding:6px 10px;border-radius:99px;background:#17304a;color:#8ed8ff}
+.about{background:#091827aa;border:1px solid #153250;border-radius:26px;padding:35px;line-height:2;color:#b4c8d8;text-align:center}
+footer{border-top:1px solid #ffffff10;padding:30px 20px;text-align:center;color:#71899d;font-size:13px}
+@media(max-width:650px){nav a{display:none}.hero{min-height:590px;padding-top:70px}.hero p{font-size:15px}section{padding:55px 16px}}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<div class="logo">Kosar-system <span>team</span></div>
+<div>
+<a href="#home">خانه</a><a href="#projects">پروژه‌ها</a><a href="#about">درباره ما</a>
+</div>
+</nav>
+</header>
+
+<main id="home">
+<div class="hero">
+<div class="orb o1"></div><div class="orb o2"></div>
+<div>
+<div class="badge">⚡ KOSAR-SYSTEM TEAM</div>
+<h1><span class="gradient">ایده‌ها را</span><br>به پروژه تبدیل می‌کنیم.</h1>
+<p>یک تیم خلاق برای ساخت ابزارهای کاربردی، نرم‌افزارهای جالب و پروژه‌های متفاوت؛ با تمرکز روی تجربه کاربری، سرعت و طراحی مدرن.</p>
+<div class="buttons">
+<a class="btn primary" href="#projects">مشاهده پروژه‌ها ↓</a>
+<a class="btn secondary" href="#about">درباره تیم</a>
+</div>
+</div>
+</div>
+
+<section id="projects">
+<h2 class="section-title">پروژه‌های ما</h2>
+<p class="section-sub">بخشی از پروژه‌های Kosar-system team</p>
+<div class="grid">
+<div class="card"><div class="icon">🛠️</div><h3>Kosar Tools</h3><p>مجموعه‌ای از ابزارهای کاربردی برای کارهای روزمره و مدیریت فایل.</p><span class="status">در حال توسعه</span></div>
+<div class="card"><div class="icon">💻</div><h3>Kosar OS Projects</h3><p>پروژه‌ها و آزمایش‌های مرتبط با سیستم‌عامل‌ها، بوت و محیط‌های دسکتاپ.</p><span class="status">فعال</span></div>
+<div class="card"><div class="icon">🎮</div><h3>Kosar Games</h3><p>بازی‌ها و تجربه‌های تعاملی کوچک با ایده‌های متفاوت و سرگرم‌کننده.</p><span class="status">به‌زودی</span></div>
+<div class="card"><div class="icon">🌐</div><h3>Web Projects</h3><p>وب‌سایت‌ها و اپلیکیشن‌های سبک و مدرن که مستقیماً در مرورگر اجرا می‌شوند.</p><span class="status">به‌زودی</span></div>
+</div>
+</section>
+
+<section id="about">
+<h2 class="section-title">درباره Kosar-system team</h2>
+<p class="section-sub">ساده، خلاق و پروژه‌محور</p>
+<div class="about">
+Kosar-system team یک برند پروژه‌محور برای ساخت نرم‌افزار، ابزار، بازی و تجربه‌های دیجیتال است.
+هدف ما این است که ایده‌های جالب را به پروژه‌های واقعی و قابل استفاده تبدیل کنیم.
+<br><br>
+<strong style="color:#8ad7ff">Made with creativity • Kosar-system team</strong>
+</div>
+</section>
+</main>
+
+<footer>
+© 2026 Kosar-system team — تمامی حقوق محفوظ است.
+</footer>
+</body>
+</html>
